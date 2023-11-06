@@ -1,4 +1,4 @@
 // make a digital clock 
 
 
-// don in th project forlder 
+// dom in th project forlder 
