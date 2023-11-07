@@ -1,4 +1,10 @@
 // make a digital clock 
 
+let heading = document.getElementById("clock")
 
-// dom in th project forlder 
+setInterval(() => {
+    let a = new Date()
+    heading.innerHTML = a.getHours() + ":" + a.getMinutes() + ":" + a.getSeconds()
+}, 1000)
+
+
