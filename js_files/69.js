@@ -8,3 +8,4 @@ localStorage.setItem(key, value)
 
 console.log(`key : ${key} and value : ${localStorage.getItem(key)}`)
 
+localStorage.clear()
