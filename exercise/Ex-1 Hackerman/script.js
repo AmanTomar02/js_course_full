@@ -27,5 +27,14 @@ const sleep = async (seconds) => {
 
 const showHack = async (messages) => {
     sleep(2);
-    console.log(messages);
+    // console.log(messages);
+    text.innerHTMl = text.innerHTMl + messages
 }
+
+
+
+(async () => {
+    for (let i = 0; i < a.length; i++) {
+        await showHack(a[i]);
+    }
+})()
