@@ -18,5 +18,14 @@
 
 /**how to modify html */
 
-const box1= document.getElementById("box1")
-box1.innerHTML= "<h3>hey</h3>"
+// const box1= document.getElementById("box1")
+// box1.innerHTML= "<h3>hey</h3>"
+
+// how to create element 
+
+const newp = document.createElement('p')
+newp.innerText = "hey hello"
+
+const container = document.getElementById("c1")
+container.appendChild(newp)
+
